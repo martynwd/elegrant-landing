@@ -128,7 +128,7 @@
   .experienceCardWrapper{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-    grid-gap: 1rem;
+    grid-gap: 10px;
     place-items: center;
     align-items: start;
   } 
