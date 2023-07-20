@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap');
 html,
 body {
+  font-family: 'Montserrat', sans-serif;
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
@@ -17,7 +18,7 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* width */

@@ -20,10 +20,9 @@ const Footer = ({ currentTheme }) => {
                 </ul>
                 <ul>
                     <li className={styles.listHeading}>Pages</li>
-                    <Link href='/'><a><li>Home</li></a></Link>
-                    <Link href='/#about'><a><li>About</li></a></Link>
-                    <Link href='/work'><a><li>Work</li></a></Link>
-                    <Link href='/contact'><a><li>Contact</li></a></Link>
+                    <Link href='/'><a><li>Главная</li></a></Link>
+                    <Link href='/#about'><a><li>о нас</li></a></Link>
+                    <Link href='/work'><a><li>Наш проект</li></a></Link>
                 </ul>
             </div>
             <hr style={{ height: '1px', backgroundColor: currentTheme.subtext, border: 'none', opacity: '0.5' }}></hr>

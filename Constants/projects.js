@@ -1,13 +1,13 @@
 // import project demo images as follows.
 import PROJECT1_1 from '../styles/projects/Project1_1.jpg';
-import PROJECT1_2 from '../styles/projects/Project1_2.jpg';
-import PROJECT1_3 from '../styles/projects/Project1_3.jpg';
 import PROJECT2_1 from '../styles/projects/Project2_1.jpg';
-import PROJECT2_2 from '../styles/projects/Project2_2.jpg';
-import PROJECT2_3 from '../styles/projects/Project2_3.jpg';
 import PROJECT3_1 from '../styles/projects/Project3_1.jpg';
-import PROJECT3_2 from '../styles/projects/Project3_2.jpg';
-import PROJECT3_3 from '../styles/projects/Project3_3.jpg';
+import PROJECT4_1 from '../styles/projects/Project4_1.jpg';
+import PROJECT5_1 from '../styles/projects/Project5_1.jpg';
+import PROJECT6_1 from '../styles/projects/Project6_1.jpg';
+import PROJECT6_2 from '../styles/projects/Project6_2.jpg';
+import PROJECT6_3 from '../styles/projects/Project6_3.jpg';
+import PROJECT7_1 from '../styles/projects/Project7_1.jpg';
 
 // first 3 projects are visible on the homepage while all are visible on the work page.
 
@@ -15,27 +15,85 @@ export const projects = [
     //leave the githublink field blank if it is a private repo or doent exist, alerts will take care of it
     //leave the projectlink field blank if it the project has not been deployed, alerts will take care of it
     {
-        name: 'Dunder Mifflin', //project name
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum', //project description
-        githubLink: '', //github repo link
-        projectLink: '', //deployed project link
-        tech: ['Tech1', 'Tech2', 'Tech3'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
-        photo: [PROJECT1_1, PROJECT1_2, PROJECT1_3], //list of names of images from above imports.
+        name: '', //project description
+        description: <p>
+            Дом Культуры «Россия Совхоз» расположен на улице Таврическая, дом 9. Рядом с ним находится множество объектов, которые привлекают большой поток туристов и создают шум. Если находиться в кампусе Сириуса, можно добраться до ДК «Россия Совхоз» пешком за 30 минут или на автомобиле за 12 минут. Мы провели фотофиксацию здания и отметили несколько важных моментов.<br />
+            <br />
+                Выводы об экстерьере здания : <br />
+                1. Пространство небольшое, и размещение объектов вызывает разочарование. <br />
+                2. Неграмотное расположение выставочной зоны <br />
+                3. Большой поток людей. <br />
+                4. Неактуальный советский фонтан <br />
+        </p>, //project description
+        photo: [PROJECT1_1], //list of names of images from above imports.
     },
     {
-        name: 'Project 2',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum',
-        githubLink: '/',
-        projectLink: '/',
-        tech: ['Tech1', 'Tech2', 'Tech3'],
-        photo: [PROJECT2_1, PROJECT2_2, PROJECT2_3],
+        name: 'Фотофиксация интерьера.',
+        description: <p>Изучая эти фотографии, мы пришли к следующим выводам:<br />
+
+            • Довольно маленькая сцена в ДК.<br />
+            •Отсутствие санузла.<br />
+            •Недостаточно места для людей.<br />
+            •Отсутствие зон отдыха.<br />
+            •Тусклое освещение.<br />
+            •Проблемы с электрикой<br />
+            •Неудобный зрительный зал с малым количеством посадочных мест и плохой видимостью с задних рядов.<br />
+            <br />
+            Тем не менее, есть и некоторые особенности:<br />
+
+            •  Толстые стены шириной 60 см.<br />
+            •  Отсутствие гардероба.<br />
+            •  Присутствие множества колонн.<br />
+            •  Высокие потолки.<br />
+            <br />
+            Мы также выделили основные функции и принципы организации пространства в ДК «Россия Совхоз»:<br />
+
+            •  Вовлечение всех возрастных категорий.<br />
+            •  Бесплатное образование для всех возрастов.<br />
+            •  Возможность размещения большого количества гостей.<br />
+            •  Увеличение площадей для занятий.<br />
+        </p>,
+        photo: [PROJECT2_1],
     },
     {
-        name: 'Project 3',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum',
-        githubLink: '/',
-        projectLink: '/',
-        tech: ['Tech1', 'Tech2', 'Tech3'],
-        photo: [PROJECT3_1, PROJECT3_2, PROJECT3_3],
+        description: <p>На данном мудборде представлены основные элементы. Например, мы использовали плитку и паркет в виде «ёлочки», чтобы сохранить исторический стиль ДК. Мы добавили различные стеклянные блоки и витражи, разнообразить освещение, оформить колонны и добавить мебель в классическом стиле.</p>,
+        photo: [PROJECT3_1],
+    },
+    {
+        description: <p>Для поддержания нашего стиля мы сохранили следующие элементы:<br />
+            <br />
+            •  Лепнина<br />
+            •  Арки<br />
+            •  Колонны<br />
+            <br />
+
+            Мы также добавили:<br />
+            <br />
+            •  Витражи и стеклянные блоки<br />
+            •  Больше изящества<br />
+            •  Различные скульптуры<br />
+        </p>,
+        photo: [PROJECT4_1],
+    },
+    {
+        description: <p>В работе над цветовой палитрой мы использовали акцентные цвета: зеленый, бордовый, небесный и молочный. Эти цвета были выбраны с учетом всех возрастных категорий, посещающих ДК «Россия Совхоз». Мы также представляем наши основные элементы декора, такие как плитка и паркет в виде «ёлочки».</p>,
+        photo: [PROJECT5_1],
+    },
+    {
+        description: <p>На первом эскизе показан пример концепции интерактивной читальни, объединенной с зоной отдыха
+            На втором скетче представлена зона отдыха для детей, известная как "мини-кинотеатр". Здесь после занятий дети смогут полежать и посмотреть мультфильмы, поиграть в настольные игры, порисовать. В этой зоне размещен амфитеатр с мягкими сидениями.
+            На третьем слайде изображен кафетерий, где гости ДК могут насладиться вкусной выпечкой.
+        </p>,
+        photo: [PROJECT6_1, PROJECT6_2, PROJECT6_3],
+    },
+    {
+        description: <p>Мы придерживаемся следующих принципов организации пространства:<br />
+            <br />
+            •  Уединение: мы предусмотрели рабочие места для каждого посетителя.<br />
+            •  Коллектив: предусмотрены пространства для сбора группами.<br />
+            •  Отдых: созданы комфортные места для всех возрастных групп.<br />
+            •  Ожидание: родители могут комфортно ждать своих детей.
+        </p>,
+        photo: [PROJECT7_1],
     },
 ]

@@ -47,6 +47,9 @@ const Work = ({ currentTheme }) => {
                     })
                 }
             </div>
+            <div className={styles.workmain} style={{ display: 'flex', justifyContent: 'center', fontSize: '22px', marginTop: '20px', marginBottom: '20px'}}>
+                <p>Наши чертежи, коллажи, мудборды и эскизы: <a href="https://drive.google.com/drive/folders/14WRkbd-_Uvb4tkUC1Ws1BD_XnITAKj7w?usp=sharing">https://drive.google.com/drive/</a></p>
+            </div>
             {
                 userinfo.blogs.visible ?
                     <div style={{ backgroundColor: currentTheme.secondary }}>

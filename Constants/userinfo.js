@@ -19,7 +19,7 @@ export const userinfo = {
     about: {
         //this text goes at the bottom of your home page.
         content: "Команда \"Элегрант\" – это созвучие эстетики и профессионализма в словах «Элегантность» и «Грациозность». Это гармоничное сочетание талантов и вдохновения, объединенное общей целью- Создать комфортную среду для самореализации  в ДК «Россия» с уникальным авторским стилем и уклоном на неоклассику. Мы не только формируем пространство, но и рассказываем историю, тем самым сохраняя культурное наследие. ",
-        resume: "/" //link your resume here. it can be drive link or any other link
+        resume: "/work" //link your resume here. it can be drive link or any other link
     },
     education: {
         visible: true, //set this to false if you want to omit this section
@@ -44,35 +44,46 @@ export const userinfo = {
             {
                 company: 'Ошкина Карина', //company name eg.Microsoft
                 companylogo: karina, //companylogo
-                position: 'Планировщик \n' +
-                    'Художник \n' +
-                    '3D моделлер ', //post you held eg.Senior SDE
+                position: <p>
+                    Планировщик <br />
+                    Художник<br />
+                    3D моделлер<br />
+                </p>
             },
             {
                 company: 'Бронникова Анна', //company name eg.Microsoft
                 companylogo: anna, //companylogo
-                position: 'Планировщик\n' +
-                    '3D моделлер (визуализатор)\n' +
-                    'Графический дизайнер ', //post you held eg.Senior SDE
+                position: <p>
+                    Планировщик<br />
+                    3D моделлер (визуализатор)<br />
+                    Графический дизайнер<br />
+                </p>
             },
             {
                 company: 'Камила Айнетдинова', //company name eg.Microsoft
                 companylogo: kamila, //companylogo
-                position: 'Планировщик \n' +
-                    '3D моделлер ', //post you held eg.Senior SDE
+                position: <p>
+                    Планировщик<br />
+                    3D моделлер<br />
+                </p>
             },
             {
                 company: 'Илья Лебедев',
                 companylogo: ilya,
-                position: '3D моделлер (визуализатор) \n' +
-                    'Копирайтер ',
+                position: <p>
+                    3D моделлер (визуализатор)<br />
+                    Копирайтер<br />
+                </p>,
             },
             {
                 company: 'Базыкина Кира',
                 companylogo: kira,
-                position: 'Планировщик  \n' +
-                    'Художник \n' +
-                    'Веб-дизайнер, Графический дизайнер ',
+                position: <p>
+                    Планировщик<br />
+                    Художник<br />
+                    Веб-дизайнер<br />
+                    Графический дизайнер<br />
+                </p>
             },
         ],
     },
@@ -85,7 +96,7 @@ export const userinfo = {
 export const headings = {
     //you can customise all the headings here.
     workHomePage: 'Work',
-    workMainPage: 'Projects',
+    workMainPage: 'Наш проект',
     capabilities: 'Capabilities',
     about: '"Элегрант: Скульпторы Стиля"',
     education: 'Главная',
@@ -96,10 +107,10 @@ export const headings = {
 
 export const ctaTexts = {
     //you can customise all the cta texts here.
-    landingCTA: 'Кнопка',
+    landingCTA: 'Наш проект',
     workCTA: 'View All',
     capabCTA: 'Get in Touch',
     educationCTA: 'About Me',
-    resumeCTA: 'Resume',
+    resumeCTA: 'Наш проект',
     submitBTN: 'Submit'
 }

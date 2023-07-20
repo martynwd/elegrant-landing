@@ -2,7 +2,6 @@
   "name": "nextjs-portfolio-template",
   "version": "0.1.0",
   "description": "A simple to use portfolio website template for all developers out there!",
-  "author": "Asavari Ambavane",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -14,8 +14,8 @@ const Experiences = ({ currentTheme }) => {
                     userinfo.experience.experienceList.map((exp, key) => {
                             return (
                                 <div className={styles.experienceCard} key={key} data-aos="fade-up">
-                                    <Box borderWidth="0px" borderRadius="md" overflow="hidden">
-                                        <div style={{ background: currentTheme.secondary, height: '150px' }}></div>
+                                    <Box borderWidth="1px" borderRadius="md" overflow="hidden" height="500px">
+                                        <div style={{ background: currentTheme.secondary, height: '150px', width: '350px' }}></div>
                                         <div className={styles.experienceCardContent}>
                                             <h1>{exp.company}</h1>
                                             <div className={styles.avatar}>
