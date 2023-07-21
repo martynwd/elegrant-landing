@@ -16,7 +16,11 @@ const Footer = ({ currentTheme }) => {
                             )
                         }) : null
                     }
-                    <Link href={`mailto:${userinfo.contact.email ? userinfo.contact.email : ''}`}><a><li>Mail</li></a></Link>
+                    <Link href={'https://t.me/wefsignn'}><a><li>Karina</li></a></Link>
+                    <Link href={'https://t.me/annn_787'}><a><li>Ann</li></a></Link>
+                    <Link href={'https://t.me/kkammila007'}><a><li>Kamila</li></a></Link>
+                    <Link href={'https://t.me/modellerilya'}><a><li>Ilya</li></a></Link>
+                    <Link href={'https://t.me/kirabazykina'}><a><li>Kira</li></a></Link>
                 </ul>
                 <ul>
                     <li className={styles.listHeading}>Pages</li>
